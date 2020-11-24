@@ -3,4 +3,11 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+
+    <!-- Theme -->
+    <color name="lightFontColor">#232323</color>
+    <color name="lightBackgroundColor">#EEEEEE</color>
+
+    <color name="darkFontColor">#EEEEEE</color>
+    <color name="darkBackgroundColor">#232323</color>
 </resources>

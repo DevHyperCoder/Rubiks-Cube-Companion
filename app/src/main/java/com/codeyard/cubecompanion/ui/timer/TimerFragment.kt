@@ -1,4 +1,4 @@
-package com.codeyard.cubecompanion.ui.main
+package com.codeyard.cubecompanion.ui.timer
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,16 +7,20 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.codeyard.cubecompanion.R
 
-class MainFragment : Fragment() {
+/**
+ * Implementation of [Fragment]
+ * Home Screen of App.
+ * TODO
+ */
+class TimerFragment : Fragment() {
 
-    companion object {
-        fun newInstance() = MainFragment()
-    }
-
+    /**
+     * @return Return a [View] inflated with the [R.layout.timer_fragment]
+     */
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        return inflater.inflate(R.layout.main_fragment, container, false)
+        return inflater.inflate(R.layout.timer_fragment, container, false)
     }
 }

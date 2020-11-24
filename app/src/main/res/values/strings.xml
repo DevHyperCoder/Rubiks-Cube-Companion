@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Cube Companion</string>
+
+    <!-- Tab Strings -->
+    <string name="timer_tab">Timer</string>
+    <string name="timings_tab">Timings</string>
 </resources>
